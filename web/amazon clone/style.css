@@ -1,0 +1,40 @@
+*{
+    cursor: progress;
+}
+body{
+    margin: 0px;
+    padding: 0px;   
+}
+header{
+    border: 1px solid black;
+    background-color: #bbff00;
+    text-align: center;
+}
+button{
+    position: absolute;
+    right: 2%;
+    font-weight: bolder;
+}
+nav{
+    border-top: 1px solid black;
+}
+main{
+    height: 500px;
+    border: 1px solid;
+    border-top: 0px;
+}
+img{
+    border: 1px solid;
+    aspect-ratio: 16/9;
+}
+.navi{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 50px;
+}
+div{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            
+            background-color: pink;
+        }
+        li{
+            margin: 20px;
+            list-style: none;
+        }
+        img{
+            position: fixed;
+            height: 50px;
+            bottom: 5%;
+            right: 5%;
+            filter: invert();
+        }
+         body{
+            background-color: black;
+         }
+
+        .nav {
+            background-color: pink;
+            width: 100vw;
+            height: 50px;
+            position: sticky;
+            top: 0%;
+        }
+
+        .main {
+            margin: 10px;
+            height: 500px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .child {
+            margin: 50px;
+            background-color: chocolate;
+            height: 350px;
+            width: 350px;
+
+        }
+
+        .radius {
+            text-align: center;
+            border: 3px solid rgba(151, 151, 151, 0.39);
+            border-radius: 24px;
+            margin: 50px;
+            color: white;
+            height: 200px;
+        }
+
+        .foot {
+            height: 100px;
+            background-color: rgb(211, 211, 211);
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="phone-call.png" alt="">
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="child child1"></div>
+        <div class="child child2"></div>
+    </div>
+    <div class="radius">
+        <h1>Welcome to this sigm web devlopment express</h1>
+    </div>
+    <div class="foot"></div>
+</body>
+
+</html>
